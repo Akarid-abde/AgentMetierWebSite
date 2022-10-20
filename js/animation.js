@@ -7,7 +7,8 @@ var words = ['#original', '#confidence', '#réactive', '#créative'],
     skip_count = 0,
     skip_delay = 15,
     speed = 70;
-var wordflick = function () {
+
+    var wordflick = function () {
   setInterval(function () {
     if (forwards) {
       if (offset >= words[i].length) {

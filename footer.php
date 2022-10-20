@@ -1,4 +1,5 @@
 <!-- Footer -->
+
 <footer class="text-center text-lg-start bg-white text-muted">
   <section class="">
 
@@ -40,7 +41,7 @@
             <a class="text-decoration-none" href="#reviews">Commentaires</a>
           </p>
           <p>
-            <a class="text-decoration-none" href="#timeline">Stratégie</a>
+            <a class="text-decoration-none" href="#milestone2">Stratégie</a>
           </p>
           <p>
             <a style="font-family: 'Mansalva', cursive;font-weight: lighter;line-height: 1.7;" class="text-decoration-none" id="FontBlog" href="#blog">Blog</a>
