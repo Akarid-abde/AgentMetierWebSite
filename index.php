@@ -37,11 +37,11 @@
     <!-- BOTTOM NAV -->
     <nav style="background-color:#F25244;height:82px;" class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <div href="index.php" style="margin-right: 0px;">
-            <video width="130px" style="position: sticky;" autoplay loop muted>
+            <a href="index.php" style="margin-right: 0px;">
+            <video  width="130px" style="position: sticky;" autoplay loop muted>
                 <source src="img/LogoV.mp4" type="video/mp4">
             </video>
-            </div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -451,7 +451,7 @@
                      <div class="card shadow border-light">
                         <div class="card-body">
                            <h5 class="card-title">Prise de rendez-vous </h5>
-                           <!-- <h6 class="card-subtitle">Marketing</h6> -->
+                           
                            <p class="card-text my-2">En cas de réception de la demande, nous fixons ensemble une date pour votre service choisi.</p>
                           
                         </div>
