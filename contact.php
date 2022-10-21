@@ -1,5 +1,5 @@
 <?php
-//get data from form  
+
 session_start();
 
 if(empty($_POST['nom'])  || empty($_POST['prenom'])  || empty($_POST['email']) || empty($_POST['message']))

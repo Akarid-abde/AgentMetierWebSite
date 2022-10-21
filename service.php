@@ -2,7 +2,6 @@
 
 session_start();
 
-
 include('connection.php');
 
 if(isset($_GET['metiers_id'])){
@@ -16,7 +15,6 @@ if(isset($_GET['metiers_id'])){
 
   $metier = $stmt->get_result();
 
-  // no product id was given
 }else{
   header("location: index.php");
 }
@@ -41,7 +39,6 @@ if(isset($_GET['metiers_id'])){
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
-    <!-- BOTTOM NAV -->
     <nav style="background-color:#F25244;height:82px;" class="navbar navbar-expand-lg navbar-light sticky-top">
         <a href="index.php" style="margin-right:0px">
             <video width="160px" style="position: sticky;" autoplay loop muted>
@@ -86,8 +83,6 @@ if(isset($_GET['metiers_id'])){
             </video>
     </div>
 
-
-    <!-- ABOUT -->
     <section id="about">
         <div class="container">
         <div  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
@@ -163,7 +158,84 @@ if(isset($_GET['metiers_id'])){
 
 
 
-    <?php include 'footer.php';?>
+    <footer class="text-center text-lg-start bg-white text-muted">
+  <section>
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <a href="#home"><img src="img/logo2-02.png" alt=""></a>
+          <p>
+            Mon Eco Brico à votre service
+          </p>
+        </div>
+    
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 text-center">
+          Réseaux sociaux
+          </h6>
+          <div class="col-auto social-icons text-center">
+            <a href="https://www.facebook.com/monecobrico"><i class='bx bxl-facebook'></i></a>
+            <a href="https://instagram.com/decoration._.2022?igshid=YmMyMTA2M2Y="><i class='bx bxl-instagram'></i></a>
+          </div>
+        </div>
+       
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+
+          <h6 class="text-uppercase fw-bold mb-4">
+          LIENS UTILES
+          </h6>
+          <p>
+            <a href="#home" class="text-decoration-none">Accueil</a>
+          </p>
+          <p>
+            <a class="text-decoration-none" href="#services">Principe</a>
+          </p>
+          <p>
+            <a class="text-decoration-none" href="#portfolio">Service</a>
+          </p>
+          <p>
+            <a class="text-decoration-none" href="#reviews">Commentaires</a>
+          </p>
+          <p>
+            <a class="text-decoration-none" href="#milestone2">Stratégie</a>
+          </p>
+          <p>
+            <a style="font-family: 'Mansalva', cursive;font-weight: lighter;line-height: 1.7;" class="text-decoration-none" id="FontBlog" href="#blog">Blog</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>   </p>
+            <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>MonEcoBrico@gmail.com</p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> +212 6 87 85 16 84</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> +212 6 87 85 16 84</p>
+        </div>
+
+    </div>
+  </section>
+</footer>
+
+<div class="buttom-nav">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p style="font-weight: lighter;"> <i class=''></i> Copyright © 2022  - MON ECO BRICO </p>
+                    <p> <i class=''></i> </p>
+                </div>
+                <div class="col-auto social-icons">
+                   
+                <div class="col-auto social-icons text-center">
+                    <p style="font-weight: lighter;">Created by</p>
+                    <a href="https://github.com/Akarid-abde"><i class='bx bxl-github'></i></a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+</div>
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -225,8 +297,6 @@ if(isset($_GET['metiers_id'])){
             </div>
         </div>
 </div>
-    <!-- End Footer -->
-
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

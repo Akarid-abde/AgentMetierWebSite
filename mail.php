@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 session_start();
 if(empty($_POST['nom'])  || empty($_POST['prenom'])  || empty($_POST['email']) || empty($_POST['tele']))
 {
@@ -24,4 +24,4 @@ else
         $_SESSION['st'] = "Merci pour votre Message  \n Message a été bien envoyer ";
     }
 }
-?>
+?> -->
